@@ -1,0 +1,17 @@
+# Blacklist everything
+*
+
+# Whitelist all directories  # Must do this before Whitelist the files
+!*/
+
+.ipynb_checkpoints/
+
+# Whitelist the file you're interested in.
+!*.cc
+!*.c
+!*.h
+!*.py
+!*.ipynb
+!makefile
+!Makefile
+!.gitignore
