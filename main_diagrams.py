@@ -9,21 +9,21 @@ typeIII_IV_V_tsep_max = 20
 # Only typeIII and typeIV_D1 involve single pion intermediate state
 
 coefficients = {
-    'typeI_D1aQ1': -2/9, 'typeI_D1aQ2': -2/9, 'typeI_D1bQ1': -2/9, 'typeI_D1bQ2': -2/9, 
-    'typeI_D2aQ1': 2/9, 'typeI_D2aQ2': 2/9, 'typeI_D2bQ1': 2/9, 'typeI_D2bQ2': 2/9, 
+#     'typeI_D1aQ1': -2/9, 'typeI_D1aQ2': -2/9, 'typeI_D1bQ1': -2/9, 'typeI_D1bQ2': -2/9, 
+#     'typeI_D2aQ1': 2/9, 'typeI_D2aQ2': 2/9, 'typeI_D2bQ1': 2/9, 'typeI_D2bQ2': 2/9, 
 
-    'typeII_D1aQ1': -1/9, 'typeII_D1aQ2': 1/9, 'typeII_D1bQ1': -1/9, 'typeII_D1bQ2': 1/9,  
+#     'typeII_D1aQ1': -1/9, 'typeII_D1aQ2': 1/9, 'typeII_D1bQ1': -1/9, 'typeII_D1bQ2': 1/9,  
 
-    'typeIII_D1aQ1': 4/9, 'typeIII_D1aQ2': -4/9, 'typeIII_D1bQ1': 4/9, 'typeIII_D1bQ2': -4/9, 
+#     'typeIII_D1aQ1': 4/9, 'typeIII_D1aQ2': -4/9, 'typeIII_D1bQ1': 4/9, 'typeIII_D1bQ2': -4/9, 
 
-    'typeIV_D1aQ1': -1/9, 'typeIV_D1aQ2': 1/9, 
-    'typeIV_D1bQ1': -1/9, 'typeIV_D1bQ2': 1/9,
+#     'typeIV_D1aQ1': -1/9, 'typeIV_D1aQ2': 1/9, 
+#     'typeIV_D1bQ1': -1/9, 'typeIV_D1bQ2': 1/9,
 
-    'typeIV_D2aQ1': -1/9, 'typeIV_D2aQ2': 1/9, 
-    'typeIV_D2bQ1': -1/9, 'typeIV_D2bQ2': 1/9,
+#     'typeIV_D2aQ1': -1/9, 'typeIV_D2aQ2': 1/9, 
+#     'typeIV_D2bQ1': -1/9, 'typeIV_D2bQ2': 1/9,
 
-    # 'typeV_D1Q1': 5/9, 'typeV_D1Q2': -5/9,  # disconnected # Error is too large (about 100% - 200%) with 35 configurations # add this later
-    # 'typeV_D2Q1': 1/9, 'typeV_D2Q2': -1/9,
+    'typeV_D1Q1': 5/9, 'typeV_D1Q2': -5/9,  # disconnected # Error is too large (about 100% - 200%) with 35 configurations # add this later
+    'typeV_D2Q1': 1/9, 'typeV_D2Q2': -1/9,
 
     'sBar_d_T1D1a': -1/9, 'sBar_d_T1D1b': -1/9, 
     'sBar_d_T2D1a': 1/9, 'sBar_d_T2D1b': 1/9, 'sBar_d_T2D2a': 1/9, 'sBar_d_T2D2b': 1/9,
